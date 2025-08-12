@@ -20,3 +20,4 @@
 #echo 'Husky.Net is awesome!'
 
 dotnet test Tests/Tests.csproj
+dotnet test --filter 'FullyQualifiedName~MeuProjeto.Tests.CalculateTests'
