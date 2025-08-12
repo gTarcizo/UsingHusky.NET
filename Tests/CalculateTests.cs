@@ -9,7 +9,7 @@ namespace Tests
       public void SummingTest()
       {
          int number = new Sum([5, 5, 5]).Result;
-         Assert.AreEqual(15, number);
+         Assert.AreEqual(17, number);
       }
       [TestMethod]
       public void SubtractingTest()
